@@ -277,18 +277,46 @@ footer{
 }
 
 @media screen and (max-width:990px) {
+
   .skills-container{
     grid-template-columns: repeat(2,1fr);
     padding: 2rem 50px;
   }
+  .about-text p:nth-child(1){
+    font-size: 25px;
+  }
+  .about-container{
+
+    height: 400px
+  }
+
 }
 
 @media screen and (max-width:650px) {
   .skills-container{
     grid-template-columns: 1fr
   }
+  .about-container{
+    width: 90%;
+    height: 500px
+  }
+  .about-text p:nth-child(1){
+    font-size: 20px;
+  }
+  .about-container img{
+   height:150px;
+  }
 }
 
-.skill-box p{
-  display: block;
+@media screen and (max-width:400px) {
+
+  .about-container{
+    height: 600px
+  }
+  .about-text p:nth-child(1){
+    font-size: 20px;
+  }
+  .about-container img{
+   height:75px;
+  }
 }

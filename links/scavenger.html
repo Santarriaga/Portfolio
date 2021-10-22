@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name='viewport' content='width=device-width,initial-scale=1' >
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="../css/aboutApp.css" />
+  </head>
+  <body>
+
+
+    <div class= "navbar">
+    <header>
+      <div class="lgo">
+        <h1>Portfolio</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Projects</a></li>
+          <li><a href="../about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+
+
+  <div class="about-container">
+	   <!--about-me-text-->
+		<div class="about-text">
+
+  		<p> Scavenge Hunt</p>
+  		<p>About the application</p>
+
+      <p>
+        Android application written in Java. Social Media app where users can
+        share pictures. The user is prompted with daily challenge where they
+        are encourage to go outside and capture a picture of that object in the
+        prompt. There is also a profile page where they can view their post and
+        and edit their profile</p>
+
+      <p>
+        The app is built with Firebase for user authentication and fireStore
+        serves as its database to store images and other information that goes
+        along with each post. Uses Glide library to load images from a URL into the
+        recycler view. Other third party library's used are circleImageView for
+        custom circular images and Android-Image-Cropper that lets user retrieve
+        and crop images from their gallery.App retrieves date from phone and displays
+        on the home page. When clicked on the date a snackbar pops up showing prompt
+        but this feature is not currently enabled since the database for prompts
+        is not integradeted yet. It uses viewpager with fragments for
+        seemless swiping between tabs.
+      </p>
+      <a target="_blank" href="https://github.com/Santarriaga/Scavenger-Hunt">
+        <button>View Code</button>
+      </a>
+		</div>
+	</div>
+
+  <div class="container">
+
+    <div class="card">
+      <div class="imgBx">
+        <img src="../img/scavenger/scavenger5.png"/>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="imgBx">
+        <img src="../img/scavenger/scavenger1.png"/>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="imgBx">
+        <img src="../img/scavenger/scavenger2.png"/>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="imgBx">
+        <img src="../img/scavenger/scavenger3.png"/>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="imgBx">
+        <img src="../img/scavenger/scavenger4.png"/>
+      </div>
+    </div>
+
+
+  </body>
+</html>
